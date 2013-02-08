@@ -11,11 +11,11 @@
     {}
   ],
   "bin": {
-    "meta": "./bin/main.js"
+    "meta": "./bin/jsgui-node-file-metadata"
   },
   "main": "./jsgui-node-file-metadata.js",
   "dependencies": {
-    "requirejs": "~2.1.2",
+    "requirejs": "~2.1.4",
     "jsgui-lang-essentials": "~0.3.8",
     "commander": "~1.1.1",
     "amdefine": ">=0.0.4",
