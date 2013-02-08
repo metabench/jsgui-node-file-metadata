@@ -1,0 +1,27 @@
+{
+  "name": "jsgui-node-file-metadata",
+  "description": "Reads metadata from files",
+  "version": "0.3.8",
+  "homepage": "http://github.com/metabench/jsgui-node-file-metadata",
+  "author": {
+    "name": "James Vickers",
+    "email": "james@metabench.com"
+  },
+  "licenses": [
+    {}
+  ],
+  "bin": {
+    "meta": "./bin/main.js"
+  },
+  "main": "./jsgui-node-file-metadata.js",
+  "dependencies": {
+    "requirejs": "~2.1.2",
+    "jsgui-lang-essentials": "~0.3.8",
+    "commander": "~1.1.1",
+    "amdefine": ">=0.0.4",
+    "jsgui-node-png-metadata": "~0.3.8"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
